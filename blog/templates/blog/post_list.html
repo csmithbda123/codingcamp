@@ -21,6 +21,7 @@
                             </div>
                             <h1><a href="">{{ post.title }}</a></h1>
                             <p>{{ post.text|linebreaksbr }}</p>
+                            <div><img src="{{post.photo}}" alt=""></div>
                             <a href="{{ post.link }}">Click here to watch a video.</a>
                         </div>
                     {% endfor %}
